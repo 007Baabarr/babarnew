@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On & Off</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+           
+        }
+        body{
+            background-image: url( pexels-ellie-burgin-1661546-5179562.jpg);
+           /* width: 100vh; */
+           background-size: 100vw;
+           background-repeat: no-repeat;
+        }
+        header{
+            height: 100px;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        section{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 17%;
+        }
+        .bulb_btn{
+            width: 150px;
+            height: 50px;
+            border-radius: 20px;
+            outline: none;
+            cursor:pointer;
+            font-size: 25px;
+            color: rgb(1, 1, 1);
+            background-color: azure;
+        }
+      
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bulb On & Off Project ByHTML, CSS and JAVASCRIPT    </h1>
+    </header>
+    <section>
+    <img src="BulbOff.png" id="bulb" alt="" width="400" >
+    <div class="btn_container" >
+        <button id="on" class="bulb_btn" onclick="bulb_on()">
+           On
+        </button>
+        <button id="off" class="bulb_btn" onclick="bulb_off()">
+            Off
+         </button>
+    </div>
+    </section>
+    <script>
+        function bulb_on(){
+            document.getElementById('bulb').src="BulbOn.png";
+
+        }
+        function bulb_off(){
+            document.getElementById('bulb').src="BulbOff.png";
+        }
+
+    </script>
+</body>
+</html>

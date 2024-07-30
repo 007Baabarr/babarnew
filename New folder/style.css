@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #instructions {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 400px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  #guess {
+    padding: 5px;
+    width: 100px;
+  }
+  
+  #submit-guess {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #game-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+  }

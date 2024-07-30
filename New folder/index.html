@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Number!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Guess the Number Game</h1>
+  <div id="instructions">
+    <h2>How to Play</h2>
+    <p>Guess the secret number correctly within a range of 1 to 100.</p>
+    <p>You have a total of 10 rounds to play.</p>
+    <p>To win the game, you must successfully guess the number correctly in at least 3 out of the 10 rounds.</p>
+    <h2>Game Rules</h2>
+    <p>In each round, you will be asked to guess a number between 1 and 100.</p>
+    <p>If your guessed number matches the secret number, you win that round.</p>
+    <p>The game will keep track of the number of rounds won.</p>
+    <h2>Game Outcome</h2>
+    <p>Winning: If you win at least 3 rounds out of 10, you win the game!</p>
+    <p>Losing: If you win fewer than 3 rounds after 10 rounds of play, you lose the game.</p>
+  </div>
+  <div id="game-container">
+    <p id="message"></p>
+    <input type="number" id="guess" placeholder="Enter your guess (1-100)...">
+    <button id="submit-guess">Guess</button>
+    <p id="rounds-left">Rounds Left: 10</p>
+    <p id="wins">Wins: 0</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

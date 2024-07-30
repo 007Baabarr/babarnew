@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.navebar{
+    height: 60px; 
+    background-color: #07bdbd;
+}
+button{
+    background-color: #0c4749;
+}
+.logo{
+/* color: #f08804; */
+font-size: medium
+}
+a{
+    margin-right:  200px;
+    text-decoration: none;
+    /* font-display:bold; */
+    font-size: 20px;
+}
+.logo>img{
+    width: 45px; 
+    margin-left:  5px;
+    margin-top: 5px;
+    
+}
+input>button{
+    width: 20;
+    size-adjust: 10px;
+}
+/* body{
+    background-image: url(faviconio-logo/logo.png);
+    background-repeat: none;
+    width: 100em;
+} */
+/* .text>p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+} */
